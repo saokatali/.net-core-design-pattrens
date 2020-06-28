@@ -11,7 +11,9 @@ namespace DesignPattern
         static void Main(string[] args)
         {
             IPremiumMicrowave premiumMicrowave = new PremiumMicrowave();
+            
             premiumMicrowave.AdjustFoodType(1);
+            
             premiumMicrowave.Start();
             
 
