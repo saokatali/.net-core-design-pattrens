@@ -12,8 +12,7 @@ namespace DesignPattern
         {
             IPremiumMicrowave premiumMicrowave = new PremiumMicrowave();
             
-            premiumMicrowave.AdjustFoodType(1);
-            
+            premiumMicrowave.AdjustFoodType(1);            
             premiumMicrowave.Start();
             
 
